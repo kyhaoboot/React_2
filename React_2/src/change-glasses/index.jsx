@@ -51,9 +51,9 @@ export default function index() {
     return newListGlasses;
   };
   return (
-    <div>
-      <div>
-        <div className="flex justify-between max-w-8xl w-full mx-auto ">
+    <div className=" max-w-8xl w-full mx-auto ">
+      <div className="">
+        <div className="flex justify-between">
           <div className="p-6">
             <div
               href="#"
