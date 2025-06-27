@@ -19,16 +19,12 @@ export default function index() {
         <div className="glass">
           <img src={imgPath} width="200px" />
         </div>
-        <div className="content w-full">
-          <h5 className="mb-2 text-2xl text-left font-bold tracking-tight text-gray-900 dark:text-white">
+        <div className="content">
+          <h5 className=" text-2xl text-left font-bold text-white">
             Name: {namePath}
           </h5>
-          <p className="font-normal text-left text-gray-900 tracking-tight dark:text-white">
-            Price: {pricePath}
-          </p>
-          <p className="font-normal text-left text-gray-900 tracking-tight dark:text-white">
-            Desc: {descPath}
-          </p>
+          <p className="text-left text-white">Price: {pricePath}</p>
+          <p className="text-left text-white">Desc: {descPath}</p>
         </div>
       </div>
     );
@@ -51,23 +47,17 @@ export default function index() {
     return newListGlasses;
   };
   return (
-    <div className=" max-w-8xl w-full mx-auto ">
-      <div className="">
+    <>
+      <div className=" max-w-8xl w-full mx-auto ">
         <div className="flex justify-between">
           <div className="p-6">
-            <div
-              href="#"
-              className="card-box block max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-            >
+            <div href="#" className="card-box h-100 block max-w-sm ">
               <img src="./public/glassesImage/model.jpg" />
               {renderFace()}
             </div>
           </div>
           <div className="p-6">
-            <div
-              href="#"
-              className="card-box block max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-            >
+            <div href="#" className="card-box max-w-sm ">
               <img src="public/glassesImage/model.jpg" />
             </div>
           </div>
@@ -81,11 +71,9 @@ export default function index() {
         </h1>
 
         <div href="#" className="">
-          <ul className="max-w-8xl w-full mx-auto flex">
-            {renderListGlasses()}
-          </ul>
+          <ul className="flex">{renderListGlasses()}</ul>
         </div>
       </div>
-    </div>
+    </>
   );
 }
