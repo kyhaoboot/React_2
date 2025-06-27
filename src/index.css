@@ -1,0 +1,15 @@
+.card-box {
+  position: relative;
+}
+.card-box .content {
+  background-color: orange;
+  position: absolute;
+  top: 70%;
+  text-align: center;
+  height: 30%;
+}
+.card-box .glass {
+  position: absolute;
+  top: 25%;
+  right: 24%;
+}
