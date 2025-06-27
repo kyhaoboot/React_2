@@ -59,7 +59,7 @@ export default function index() {
               href="#"
               className="card-box block max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
             >
-              <img src="public/glassesImage/model.jpg" />
+              <img src="./public/glassesImage/model.jpg" />
               {renderFace()}
             </div>
           </div>
