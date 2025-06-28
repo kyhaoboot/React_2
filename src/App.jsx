@@ -3,7 +3,7 @@ import ChangeListGlass from "./change-glasses";
 function App() {
   return (
     <>
-      <div>
+      <div className="container-main">
         <ChangeListGlass />
       </div>
     </>

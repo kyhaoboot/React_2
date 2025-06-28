@@ -48,7 +48,7 @@ export default function index() {
   };
   return (
     <>
-      <div className=" max-w-8xl w-full mx-auto ">
+      <div className="max-w-8xl w-full mx-auto ">
         <div className="flex justify-between">
           <div className="p-6">
             <div href="#" className="card-box h-100 block max-w-sm ">
